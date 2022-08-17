@@ -8,13 +8,13 @@ public class Employee {
     private int department;
     private int salary;
 
-    public Employee(String surname,String name,String patronymic,int department,int salary) {
+    public Employee(String surname, String name, String patronymic, int department, int salary) {
         this.surname = surname;
         this.name = name;
         this.patronymic = patronymic;
         this.department = department;
         this.salary = salary;
-        this.id=counter++;
+        this.id = counter++;
 
     }
 
@@ -58,7 +58,7 @@ public class Employee {
     }
 
     @Override
-    public String  toString() {
+    public String toString() {
         return "Employee{" +
                 "id=" + id +
                 ", surname='" + surname + '\'' +
