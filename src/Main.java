@@ -69,8 +69,9 @@ public class Main {
     public static float averageSalary() {
         float sum = 0f;
         for (Employee employee : emmployees) {
-            sum = sum + employee.getSalary() / emmployees.length;
+            sum = sum + employee.getSalary();
         }
+        sum = sum / emmployees.length;
         return sum;
     }
 
